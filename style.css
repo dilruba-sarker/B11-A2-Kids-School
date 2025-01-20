@@ -147,6 +147,77 @@ background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0)
 .aroow{
     rotate: 180deg;
 }
+.story{text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+}
+.story-card-container{
+    max-width: 1024px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: 0 auto;
+}
+.story-png img{
+    width: 100%;
+    border-radius: 10px;
+}
+.story-left{max-width:35%;
+    border-radius: 10px;
+box-shadow: 20px;
+background-color: aliceblue;
+height: 480px;
+
+}
+.story-left h1,p{
+    padding: 10px;
+}
+.story-right{
+    max-width: 55%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content:center;
+    gap: 10px;
+    margin: 0 auto;
+  
+}
+.story1{
+  background-color: aliceblue;
+  border-radius: 20px;
+  height: 230px;
+  padding: 4px;
+}
+.story1 h4{
+    width: 70%;
+    text-align: center;
+}
+.story1 img{width: 100%;
+    border-radius: 20px;
+}
+.green-date{
+    background-color: rgb(127, 198, 46);
+    width: 160px;
+    color:aliceblue;
+    padding: 4px;
+    border-radius: 20px;
+    position: relative;
+    bottom: 100px;
+    left: 50px;
+}
+.blue-1{
+    background-color: rgb(58, 58, 207);
+    width: 120px;
+    color:aliceblue;
+    padding: 4px;
+    border-radius: 20px;
+    position: relative;
+    bottom: 100px;
+    left: 50px;
+}
+.all-view{
+    text-align: center;
+    margin: 40px auto;
+}
 @media screen and ( max-width:576px){
     .nav-right{
         display:none;
@@ -176,6 +247,23 @@ background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0)
     }
     .aroow-2{
         display: none;
+    }
+    .story-left{display: none;
+    
+    }
+    .story1{
+        width: 200px;
+    }
+    .green-date{
+      
+        width: 140px;
+        bottom: 120px;
+        left: 20px;
+    }
+    .blue-1{
+        width: 140px;
+        bottom: 140px;
+        left: 20px;
     }
 }
 @media screen and (min-width:576px) and (max-width:992px) {
