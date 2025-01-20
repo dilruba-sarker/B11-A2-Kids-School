@@ -85,6 +85,60 @@ padding: 5px;
     padding: 4px;
     text-align:center;
 }
+
+
+.body-container{
+    max-width: 1024px;
+
+    margin: 0 auto;
+    background: url("./assets/bg.png"),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+
+}
+.curriculum{
+    text-align: center;
+    margin: 50px;
+}
+.card-container{
+    display: flex;
+    justify-content:space-between ;
+    text-align: center;
+    align-items: center;
+    gap:10px;
+}
+.card-1{
+    box-sizing: border-box;
+border: 0.94px solid rgb(222, 245, 255);
+border-radius: 18.86px;
+
+box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+.card-2{
+    box-sizing: border-box;
+border: 0.94px solid rgb(255, 244, 220);
+border-radius: 18.86px;
+
+box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+.card-3{
+    box-sizing: border-box;
+border: 0.94px solid rgb(242, 232, 255);
+border-radius: 18.86px;
+
+box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+
+.more-read{
+    color: blue;
+}
+.more-read2{
+    color: rgb(233, 99, 16);
+}
+.more-read1{
+    color: rgb(228, 5, 5);
+}
 @media screen and ( max-width:576px){
     .nav-right{
         display:none;
@@ -109,6 +163,9 @@ padding: 5px;
         max-width: 100%;
       
     }
+    .card-container{
+        flex-direction: column;
+    }
 }
 @media screen and (min-width:576px) and (max-width:992px) {
     .nav-right{
@@ -117,5 +174,7 @@ padding: 5px;
     .three-line{
         display: block;
     }
-   
+    .body-container{
+      
+    }
 }
