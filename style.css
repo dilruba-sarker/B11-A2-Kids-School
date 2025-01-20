@@ -139,6 +139,14 @@ background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0)
 .more-read1{
     color: rgb(228, 5, 5);
 }
+.aroow-2{
+    display: flex;
+    justify-content: center;
+  
+}
+.aroow{
+    rotate: 180deg;
+}
 @media screen and ( max-width:576px){
     .nav-right{
         display:none;
@@ -166,6 +174,9 @@ background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0)
     .card-container{
         flex-direction: column;
     }
+    .aroow-2{
+        display: none;
+    }
 }
 @media screen and (min-width:576px) and (max-width:992px) {
     .nav-right{
@@ -174,7 +185,7 @@ background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0)
     .three-line{
         display: block;
     }
-    .body-container{
-      
+    .aroow-2{
+      visibility: visible;
     }
 }
