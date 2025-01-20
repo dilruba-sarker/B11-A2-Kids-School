@@ -204,6 +204,16 @@ height: 480px;
     bottom: 100px;
     left: 50px;
 }
+.green-date1{
+    background-color: rgb(64, 174, 204);
+    width: 160px;
+    color:aliceblue;
+    padding: 4px;
+    border-radius: 20px;
+    position: relative;
+    bottom: 270px;
+    left: 50px;
+}
 .blue-1{
     background-color: rgb(58, 58, 207);
     width: 120px;
@@ -216,8 +226,39 @@ height: 480px;
 }
 .all-view{
     text-align: center;
-    margin: 40px auto;
+    margin: 50px auto;
+    padding: 5px;
 }
+.footer-container{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    gap: 100px;
+    background-color: blue;
+    color:white
+
+}
+
+.footer-right{
+    max-width: 35%;
+   
+}
+.footer-center{
+    max-width: 30%;
+  
+}
+.foother-left{
+    max-width: 35%;
+    margin-top: -80px;
+   
+}
+.li{
+    font-size: 24px;
+    margin-left: -30px;
+}
+.foot-img{display: flex;}
 @media screen and ( max-width:576px){
     .nav-right{
         display:none;
@@ -260,12 +301,39 @@ height: 480px;
         bottom: 120px;
         left: 20px;
     }
+
+    .footer-container{
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .footer-right{
+        max-width: 100%;
+       
+    }
+    .footer-center{
+        max-width: 100%;
+        margin-bottom: 30px;
+        margin-left: -200px;
+      
+    }
+    .foother-left{
+        max-width: 100%;
+        margin-left: -200px;
+       
+    }
+
     .blue-1{
         width: 140px;
         bottom: 140px;
         left: 20px;
     }
+   
+   
 }
+
+
 @media screen and (min-width:576px) and (max-width:992px) {
     .nav-right{
         display:none;
@@ -275,5 +343,36 @@ height: 480px;
     }
     .aroow-2{
       visibility: visible;
+    }
+    .green-date{
+      
+        width: 140px;
+        bottom: 110px;
+        left: 20px;
+    }
+    .green-date1{
+      
+        width: 140px;
+        bottom: 330px;
+        left: 20px;
+    }
+
+    .blue-1{
+        width: 140px;
+        bottom: 140px;
+        left: 20px;
+    }
+    .footer-container{
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-bottom: 40px;
+    }
+    .footer-center{
+        max-width: 100%;
+        margin-bottom: 30px;
+      
+      
     }
 }
