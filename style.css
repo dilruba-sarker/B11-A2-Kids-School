@@ -1,0 +1,121 @@
+
+.nav-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width:1024px;
+    margin: 0 auto;
+
+}
+.nav-left{
+    display:flex ;
+}
+ul>li{
+    list-style:none;
+}
+.nav-center ul{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    
+
+}
+.nav-right{
+font-size: 24px;
+padding: 5px;
+    display: block;
+    color: aliceblue;
+ 
+ text-align: center;
+ border-radius: 12px;
+
+ /* Orange */
+ background: rgb(254, 163, 1);
+}
+.home{
+    font-size: 24px;
+    color:rgb(254, 163, 1);
+}
+.about{
+    font-size: 24px;
+    color: rgb(28, 81, 227);
+}
+.fasility{
+    font-size: 24px;
+    color: rgb(141, 23, 145);
+}
+.admision{
+    font-size: 24px;
+    color: rgb(106, 137, 3);
+}
+.three-line{display:none ;}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width:1024px;
+    margin: 0 auto;
+}
+.banner-left{
+    max-width:50%;
+}
+.banner-left h1{
+    width:55%;
+    font-size:xx-large;
+}
+.banner-left p{
+   color: rgb(17, 17, 17);
+}
+.empower{
+    color: rgb(254, 163, 1);
+}
+.vision{
+    color: rgb(8, 162, 228);
+}
+.banner-right{
+    max-width: 45%;
+    font-size: 24px;
+}
+.enrol{
+    background-color:black;
+    color: rgb(255, 255, 255);
+    width: 100px;
+    border-radius: 5px;
+    padding: 4px;
+    text-align:center;
+}
+@media screen and ( max-width:576px){
+    .nav-right{
+        display:none;
+    }
+    .three-line{
+        display: block;
+    }
+    .nav-center ul{
+        
+        display:none;
+    
+    }
+    .banner{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .banner-left h1{
+        width:100%;
+      
+    }
+    .banner-right{
+        max-width: 100%;
+      
+    }
+}
+@media screen and (min-width:576px) and (max-width:992px) {
+    .nav-right{
+        display:none;
+    }
+    .three-line{
+        display: block;
+    }
+   
+}
