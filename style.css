@@ -240,7 +240,12 @@ height: 480px;
     color:white
 
 }
-
+.border{
+    display: none;
+    font-weight: 700;
+    font-size: xx-large;
+}
+ 
 .footer-right{
     max-width: 35%;
    
@@ -329,6 +334,9 @@ height: 480px;
         bottom: 140px;
         left: 20px;
     }
+.border{
+    display: block;
+}
    
    
 }
